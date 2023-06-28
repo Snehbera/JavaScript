@@ -1,17 +1,16 @@
-// Program to add first n natural numbers
-let sum = 0
-let n = prompt("Enter the value of n")
-n = Number.parseInt(n)
-for (let i = 0; i < n; i++) {
-  sum += (i + 1)
-  // console.log((i+1), "+")
-}
-console.log("Sum of first " + n + " natural numbers is " + sum)
-// console.log(i)
+// // Program to add first n natural numbers
+// let sum = 0
+// let n = prompt("Enter the value of n")
+// n = Number.parseInt(n)
+// for (let i = 0; i < n; i++) {
+//   sum += (i + 1)
+//   // console.log((i+1), "+")
+// }
+// console.log("Sum of first " + n + " natural numbers is " + sum)
+// // console.log(i)
 
 
 
-/*
 let obj = {
   harry: 90,
   shubh: 45,
@@ -21,12 +20,25 @@ let obj = {
 }
 
 // For in loop
-for (let a in obj) {
-  console.log("Marks of " + a + " are " + obj[a])
-}
+// for (let a in obj) {
+//   console.log("Marks of " + a + " are " + obj[a])
+// }
 
 // For of loop
-for (let b of "Harry") {
-  console.log(b)
-}
-*/
+// for (let b of "Harry") {
+//   console.log(b)
+// }
+
+// let num = 100;
+// for (let i = 0; i <= num; i++){
+//     if((i % 2) == 0){
+//       console.log(i)
+//     }
+// }
+
+
+// for(let n = 1; n <= 100; n =n+10){
+//   for(let b = n; b < n+10; b++){
+//     console.log(b)
+//   }
+// }
