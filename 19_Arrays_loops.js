@@ -9,6 +9,11 @@ num.forEach((element) => {
   console.log(element * element)
 })
 
+let a = ["Sneh", "jay", "netflix", "Linux"]
+a.forEach(function(value, index){
+  console.log(index + " : " + value);
+})
+
 // Array.from 
 let name = "Harry"
 let arr = Array.from(name)
